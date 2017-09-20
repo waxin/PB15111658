@@ -1,0 +1,29 @@
+
+const    int COUNT= 11;  
+void main()  //Other men live to eat, while I eat to live. 
+{  
+int arr[]={10,8,9,3,2,4,7,6,5,1,0};  
+int i,j; 
+int temp;
+i=1;  
+        if (arr[i]==arr[i+1]){  
+        	int tmp=arr[i]; 
+		arr[i]=arr[i+1];
+		arr[i+1]=temp;  
+        }  
+  
+/*Easy come, easy go. 
+*/         
+        else
+		temp=0;
+ 	
+while(i<=10)
+	temp=temp+arr[i];
+if(temp>=10)
+	temp=temp*2;
+else
+	temp=temp/2;
+temp=temp%2;
+temp=temp-1;
+
+}  
